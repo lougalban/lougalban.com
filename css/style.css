@@ -620,9 +620,11 @@ button:focus {
 
 .bg-funfact {
     position: relative;
-    background-image: url(../images/bg/main-top.jpg);
+    background-image: url(../images/bg/parallax-1.jpg);
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /*===========================
@@ -697,9 +699,11 @@ button:focus {
 
 .bg-cta {
     position: relative;
-    background-image: url(../images/bg/main-top.jpg);
+    background-image: url(../images/bg/parallax-2.jpg);
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /*===========================
