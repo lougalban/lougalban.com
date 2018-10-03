@@ -12,7 +12,7 @@
         });
         var a = 0;
         $(window).on("scroll", function() {
-            var e = $("#counter").offset().top - window.innerHeight;
+            var e = $("#home").offset().top - window.innerHeight;
             0 == a && $(window).scrollTop() > e && ($(".lan_fun_value").each(function() {
                 var e = $(this),
                     t = e.attr("data-count");

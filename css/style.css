@@ -92,7 +92,7 @@ button:focus {
     border-top: 5px solid rgba(0, 0, 0, 0.2);
     border-right: 5px solid rgba(0, 0, 0, 0.2);
     border-bottom: 5px solid rgba(0, 0, 0, 0.2);
-    border-left: 5px solid #000;
+    border-left: 5px solid #1a9cdb;
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
     transform: translateZ(0);
@@ -135,7 +135,7 @@ button:focus {
     bottom: 15px;
     height: 35px;
     width: 35px;
-    background-color: #000;
+    background-color: #1a9cdb;
     display: none;
     z-index: 10000;
     border-radius: 3px;
@@ -993,8 +993,8 @@ button:focus {
 }
 
 .fot_social .social-icon:hover {
-    border-color: #000;
-    color: #000 !important;
+    border-color: #1a9cdb;
+    color: #1a9cdb !important;
     transform: rotate(360deg);
 }
 
